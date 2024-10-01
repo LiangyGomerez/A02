@@ -1,54 +1,80 @@
-# A02<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>A02 Github</title>
 </head>
 <body>
-    <h1>Homework_A02</h1>
-    <p>This is how GitHub works</p>
-    <br>
-    <p>GitHub is a platform that leverages Git, a version control system, to facilitate collaborative software development. Here’s a basic overview of how it works:</p>
-
-    <p> ### 1. **Repositories (Repos)**:
-           - A repository is a storage space for your project. It contains all the files and the history of changes made to those files.
-           - You can create a public repo (open to everyone) or a private one (restricted access).</p>
-        
-       <p> ### 2. **Version Control**:
-           - Git tracks changes to files over time, allowing you to revert to previous versions, compare changes, and collaborate effectively.</p>
-        
-      <p>  ### 3. **Branches**:
-           - Branches allow multiple versions of a project to be developed simultaneously. For example, you might have a "main" branch for stable code and a "development" branch for ongoing changes.
-           - You can create new branches to work on features or fixes without affecting the main codebase.</p>
-        
-        <p>### 4. **Commits**:
-           - A commit is a snapshot of your changes. Each commit has a unique identifier and includes a message describing what changes were made.
-           - Commits can be pushed to GitHub to update the repository.</p>
-        
-       <p> ### 5. **Pull Requests (PRs)**:
-           - When you want to merge changes from one branch into another (like from a feature branch to the main branch), you create a pull request.
-           - Other collaborators can review your changes, comment, and suggest modifications before merging.</p>
-        
-       <p> ### 6. **Issues**:
-           - GitHub includes a built-in issue tracker for reporting bugs, requesting features, or discussing improvements.
-           - Issues can be assigned to team members, labeled, and prioritized.</p>
-        
-        <p>### 7. **Collaboration**:
-           - Multiple developers can work on the same project simultaneously. GitHub manages merging changes and resolving conflicts when different contributors edit the same parts of the code.</p>
-        
-       <p> ### 8. **GitHub Actions**:
-           - This feature allows you to automate workflows, such as testing code, deploying applications, or running scripts based on events (like when a commit is pushed).
-        </p>
-
-       <p> ### 9. **Forking**:
-           - You can create a personal copy of someone else's repository (fork) to make changes or experiment without affecting the original project.
-           - Once you make changes, you can submit a pull request to propose merging your changes back into the original repository.</p>
-        
-       <p> 10. **Community and Documentation**:
-           - GitHub hosts extensive documentation, community forums, and a marketplace for tools that can enhance your workflow.</p>
-        
-       <p> By using GitHub, developers can collaborate more effectively, keep track of their work, and maintain a clear history of project development.</p>
-        </br>
+<h1>Github Tutorial</h1>
+<br>
+<h1>Part 1: Directions on Using WebStorm and GitHub</h1>
+<br>
+<h2>Step 1: Create a GitHub Account</h2>
+<ul>
+<li>Go to GitHub and sign up for an account.</li>
+<li>Follow the on-screen instructions to complete your account setup</li>
+</ul>
+<h2>Step 2: Install Git</h2>
+<ul>
+<li>Download and install Git from Git's official site. This will allow you to manage repositories locally.</li>
+<li>During installation, select the default options unless you need to customize them</li>
+</ul>
+<h2>Step 3: Install WebStorm</h2>
+<ul>
+<li>Download and install WebStorm from the official JetBrains website: WebStorm.
+</li>
+<li>WebStorm is an IDE that integrates well with Git and GitHub, making it easier to manage repositories.</li>
+</ul>
+<h2>Step 4: Create a GitHub Repository</h2>
+<ul>
+<li>After logging into GitHub, click on the “+” icon in the upper right corner and select “New repository.”</li>
+<li>Name the repository A02, and make sure it's public or private based on your requirements.</li>
+<li>Add a README file (this is where you can write the tutorial!).</li>
+</ul>
+<h2>Step 5: Clone the Repository Locally Using WebStorm</h2>
+<ol>
+<li>Open WebStorm.</li>
+<li>Select Get from VCS from the welcome screen.</li>
+<li>Paste the repository URL (e.g., https://github.com/yourUCID/A02).</li>
+<li>Choose a local directory to clone the repository into.</li>
+<li>Click Clone.</li>
+</ol>
+<h2>Step 6: Create and Edit Files in WebStorm</h2>
+<ul>
+<li>Inside WebStorm, head to the project directory.</li>
+<li>Open the README.md file and begin writing the tutorial.</li>
+<li>Any changes made in WebStorm can be tracked and committed via Git directly within the IDE.</li>
+</ul>
+<h2>Step 7: Commit and Push Changes</h2>
+<ol>
+<li>After editing the README file, go to VCS > Commit or use the Commit button at the top.
+</li>
+<li>Write a clear commit message, such as:
+Task: Create README file
+Feature: Added tutorial steps</li>
+<li>Click Commit.</li>
+<li>Push the changes by selecting VCS > Git > Push.</li>
+</ol>
+<h2>Step 8: Submit Your Repository Link</h2>
+<ul>
+<li>After you have pushed all the necessary changes, copy your repository URL (e.g., https://github.com/yourUCID/A02).</li>
+<li>Submit this link via Canvas to complete the assignment</li>
+</ul>
+<h1>Part 2: Glossary of Git Terms</h1>
+<ul>
+<li>Branch: A branch in Git is a pointer to a specific set of commits. It allows you to work on different versions of a project simultaneously.</li>
+<li>Clone: The process of copying a repository from GitHub to your local machine.</li>
+<li>Commit: A commit represents a snapshot of your project at a specific point in time.</li>
+<li>Fetch: Fetching is the process of getting updates from a remote repository without merging them into your local codebase.</li>
+<li>GIT: Git is a distributed version control system that allows multiple people to work on a project simultaneously.</li>
+<li>GitHub: A cloud-based hosting service for managing Git repositories.</li>
+<li>Merge: Merging is the process of integrating changes from one branch into another.</li>
+<li>Merge Conflict: Occurs when two branches have conflicting changes that Git cannot automatically merge.</li>
+<li>Push: Pushing sends your local changes (commits) to a remote repository like GitHub</li>
+<li>Pull: Pulling fetches the latest changes from a remote repository and merges them into your local repository.</li>
+<li>Remote: A remote is a version of a project that is hosted on a server, typically on GitHub or another hosting service.</li>
+<li>Repository: A repository is a directory or storage space where your project files and version history are stored.</li>
+</ul>
 </body>
 </html>
