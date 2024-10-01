@@ -76,5 +76,14 @@ Feature: Added tutorial steps</li>
 <li>Remote: A remote is a version of a project that is hosted on a server, typically on GitHub or another hosting service.</li>
 <li>Repository: A repository is a directory or storage space where your project files and version history are stored.</li>
 </ul>
+<h1>Resources</h1>
+<li>W3 Schools
+<ul>
+<li><a href="https://www.w3schools.com/html/default.asp">HTML Tutorial</a></li>
+</ul></li>
+<li>Traversy Media</li>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=UB1O30fR-EE">HTML Crash Course For Absolute Beginners</a></li>
+</ul>
 </body>
 </html>
